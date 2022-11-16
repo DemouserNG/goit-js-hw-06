@@ -10,7 +10,7 @@ function onFormSubmit(event) {
     const email = formElements.email.value;
     const password = formElements.password.value;
 
-    if (email.lenght === 0 || password.lenght === 0) {
+    if (email.length === 0 || password.length === 0) {
         alert('Заповніть поле');
         return;
     };

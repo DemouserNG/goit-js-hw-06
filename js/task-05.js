@@ -8,8 +8,10 @@ input.addEventListener('input', onInputChange);
 function onInputChange(event) {
 
      if (event.currentTarget.value === '') {
-         return span;
-    } else{
+         return span.textContent= 'Anonymous';
+     }
+     else {
     span.innerHTML = input.value;
     }
 };
+
